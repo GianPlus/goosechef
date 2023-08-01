@@ -1,0 +1,251 @@
+﻿body{
+    margin: 0px;
+    background-color: #ff6d38;
+}
+
+.body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #231F20;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.titulo {
+    margin-top: 0px;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.background {
+    margin-top: 5px;
+    background-color: #231F20;
+}
+
+.menu {
+    padding-left: 220px;
+}
+
+.menu2 {
+    padding-top: 35px;
+}
+
+#menu{
+    position: relative;
+    top: 10%;
+}
+
+.button1 {
+    color: #231F20;
+    cursor: pointer;
+    display: block;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px; 
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+}
+    .button1 {
+        width: 400px;
+        position: relative;
+        letter-spacing: 0;
+        transition: all 200ms;
+        background-color: #231F20;
+        color: white;
+    }
+
+    .button1:hover,
+    .button1:active {
+        letter-spacing: 3px;
+        transition: all 200ms;
+    }
+
+    .button1:after,
+    .button1:before {
+        backface-visibility: hidden;
+        border: 1px solid #231F20;
+        ;
+        bottom: 0px;
+        content: " ";
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        transition: all 280ms ease-in-out;
+        width: 0;
+    }
+
+    .button1:hover:after,
+    .button1:hover:before {
+        backface-visibility: hidden;
+        border-color: white;
+        transition: width 350ms ease-in-out;
+        width: 70%;
+    }
+
+    .button1:hover:before {
+        bottom: auto;
+        top: 0;
+        width: 70%;
+    }
+.imagem1 {
+    border-radius: 20px;
+    transition: all 200ms;
+    margin: 10px;
+    cursor: pointer;
+}
+    .imagem1:hover {
+        transform: scale(1.03);
+        transition: all 200ms;
+    }
+
+.imagem2 {
+    border-radius: 20px;
+    transition: all 200ms;
+    margin: 1%;
+    border: 3px solid black;
+    cursor: pointer;
+    }
+    .imagem2:hover {
+        transform: scale(1.05);
+        transition: all 200ms;
+    }
+    .imagem2:active {
+        transform: scaleZ(1.08);
+         transition: all 200ms;
+    }
+
+.imagem3 {
+    border-radius: 20px;
+    transition: all 200ms;
+    margin: 0px;
+    border: 3px solid black;
+    cursor: pointer;
+    }
+    .imagem3:hover {
+        transform: scale(1.05);
+        transition: all 200ms;
+    }
+    .imagem3:active {
+        transform: scaleZ(1.5);
+         transition: all 200ms;
+    }
+
+.categorias {
+    margin-top: 5px;
+    background-color: #ff6d38;
+}
+
+.button2 {
+    background-color: white;
+    width: 19%;
+    height: 19%;
+    border: 3px solid black;
+    font-family: sans-serif;
+    font-size: larger;
+    cursor: pointer;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all 200ms;
+}
+    .button2:hover{
+        transform: scale(1.05);
+        transition: all 200ms;
+    }
+
+.background2 {
+    margin-top: 3px;
+    padding: 10px;
+    background-color: #ff6d38;
+}
+
+.background3 {
+    height: auto;
+    margin-top: 3px;
+    padding: 10px;
+    background-color: #ff6d38;
+}
+
+.item {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 23px;
+    background-color: white;
+    width: 45%;
+}
+
+.imagem4 {
+    border-radius: 20px;
+    transition: all 200ms;
+    margin: 0px;
+    border: 0px solid black;
+    cursor: pointer;
+    }
+    .imagem4:hover {
+        transform: scale(1.5);
+        transition: all 200ms;
+    }
+    .imagem4:active {
+        transform: scaleZ(1.5);
+         transition: all 200ms;
+    }
+
+.comentario {
+    position: absolute;
+    background:#ffffff;
+    color:#000000;
+    display: block;
+    width: 44.5%;
+    height: 53%;
+    opacity: 0;
+    border-radius: 20px;
+}
+    .comentario:hover {
+        opacity: 1;
+    }
+
+.td {
+    padding: 10px;
+}
+
+.aviso {
+    display: block;
+    width: 50%;
+    height: 50%;
+    background-color: #000000;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 3px;
+    border: 3px solid white;
+}
+
+.textbox {
+    margin-top: 4px;
+    background-color: #231F20;
+    padding: 50px;
+}
+
+.titulo2 {
+    display: block;
+    background-color: #000000;
+    margin-top: 3px;
+    padding: 10px;
+}
